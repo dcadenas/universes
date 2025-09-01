@@ -44,7 +44,7 @@ function SpacesWrapper() {
 
 export function AppRouter() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Index />} />
